@@ -1,0 +1,33 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "\"Job\" searching (Basic) and posting application with Sequelize (Postgres)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NemesLaszlo/Job-Portal.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "postgresql",
+    "sequelize"
+  ],
+  "author": "Laszlo Nemes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NemesLaszlo/Job-Portal/issues"
+  },
+  "homepage": "https://github.com/NemesLaszlo/Job-Portal#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.4"
+  }
+}
